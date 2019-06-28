@@ -28,7 +28,8 @@ i{
     width: 300px;
     height: 90px;
     text-align: center;
-    background: #71bce7;
+    background-image: linear-gradient(to bottom, #373B44 , #4286f4);
+    color: #fff;
     border-radius: 10px;
     margin-left: 20px;
     list-style: none;

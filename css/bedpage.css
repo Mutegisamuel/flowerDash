@@ -19,3 +19,43 @@ i{
     float: left;
     padding-left:8px;
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+}
+
+.bedcard{
+    width: 160px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.6);
+    background-image: linear-gradient(to right, #373B44 , #4286f4);
+    
+}
+
+.cardbody{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 70%;
+    border-radius: 10px;
+}
+
+.leftdiv{
+    background: #fff;
+    padding-top: 5px;
+
+}
+
+p strong{
+    font-size: 30px;
+}
+
+.rightdiv{
+    
+    padding-top: 15px;
+    padding-right: 20px;
+}

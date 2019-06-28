@@ -67,6 +67,18 @@ let chartone = new Chart (monthlyChart, {
         },
         tooltip:{
             enabled:true
+        },
+        scales: {
+            xAxes: [{
+                gridLines: {
+                    display:false
+                }
+            }],
+            yAxes: [{
+                gridLines: {
+                    display:false
+                }   
+            }]
         }
 
     }
@@ -107,6 +119,18 @@ let charttwo = new Chart (yearlyChart, {
         },
         tooltip:{
             enabled:true
+        },
+        scales: {
+            xAxes: [{
+                gridLines: {
+                    display:false
+                }
+            }],
+            yAxes: [{
+                gridLines: {
+                    display:false
+                }   
+            }]
         }
 
     }
