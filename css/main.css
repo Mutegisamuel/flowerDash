@@ -1,0 +1,198 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+    font-family: 'Pacifico', cursive;
+    color: #71bce7;
+}
+
+h2{
+    display: block;
+    font-size: 1.2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+}
+
+h3 {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.card{
+    width: 200px;
+    transition: 0.4s;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.6);
+    height: 200px;
+    margin: 15px;
+    border-radius: 16px;
+    
+}
+
+.card-header{
+    padding: 8px;
+    display: flex;
+}
+
+.heading{
+    display: flex;
+}
+
+.head-icon{
+    padding:2px;
+}
+
+
+
+.card-body{
+    display: block;
+    width:100%;
+    height: 150px;
+}
+
+.cardbody-wraper{
+    padding-left: 35%;
+    padding-top: 10%;
+}
+
+.stats{
+    display: flex;
+}
+
+.card-footer{
+    padding: 8px;
+    display: flex;
+    text-align: center
+   
+}
+
+.footer-wraper{
+    border-right: 1px solid #777;
+}
+
+
+
+h4{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.tabbed-content{
+    background: #DCDCDC;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.tabs label div{
+    float: right;
+    padding: 8px;
+    border-bottom: 2px solid transparent; 
+}
+
+
+.tabs input{
+    display: none;
+    
+}
+
+.tabs label input:checked + div{
+    opacity: 1;
+    border-bottom: 2px solid #fff;     
+}
+
+.tabs{
+    overflow: hidden;
+}
+
+.tabcontent{
+    padding: 0 16px;
+    display:none;
+    animation:fadeEffect .5s;
+}
+
+@keyframes fadeEffect{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+
+.tabcontent:target{
+    display: block;
+}
+
+
+/* nav bar manenos */
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    bottom: 0px;
+    left: 0%;
+    position: fixed;
+    margin: 0;
+    padding: 15px 0;
+    background: #fff;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 -10px 30px rgb(0, 0, 0, 0.6)
+
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+    display: block;
+    border-right: 1px solid #777;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 0 32px;
+    display: block;
+
+}
