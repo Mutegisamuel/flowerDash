@@ -50,53 +50,54 @@ h4{
     margin-inline-end: 0px;
 }
 
-.card{
-    width: 200px;
-    transition: 0.4s;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.6);
-    height: 260px;
-    margin: 15px;
-    border-radius: 16px;
-    
-}
-
-.card-header{
-    padding: 8px;
-    display: flex;
-}
-
-.heading{
-    display: flex;
-}
-
-.head-icon{
-    padding:2px;
-}
-
-
-
-.card-body{
+h2 {
     display: block;
-    width:100%;
-    height: 150px;
+    font-size: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
-.cardbody-wraper{
-    padding-left: 35%;
-    padding-top: 10%;
+p{
+    margin: 0px;
+    font-size: 12px;
+    float: right;
+    color: #71bce7;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
 }
 
-.stats{
+.week{
+    border-bottom: 1px solid #777;
+}
+
+.flexnames{
     display: flex;
+    padding-top: 15px;;
 }
 
-.card-footer{
-    padding: 8px;
-    display: flex;
-    text-align: center
-   
+.weekname{
+    flex: 1;
 }
 
-.footer-wraper{
-    border-right: 1px solid #777;
+.spans{
+    flex: 1;
+}
+
+.bedcard{
+    width: 300px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-auto-rows: 20px;
+    grid-auto-columns: minmax(50px, auto);
+    padding: 1.5em;
+    border-bottom: 1px solid #ddd;
+}
+
+a{
+    text-decoration: none;
 }

@@ -1,3 +1,122 @@
+
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.header-img{
+    margin-left: 0em;
+    width: 340px;
+    height: 200px;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.6);
+    border-radius: 20px;
+    background-image: url(../images/roseheader.jpg);
+background-repeat:no-repeat;
+background-position: center center;
+
+}
+
+.ifs{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+    font-family: 'Pacifico', cursive;
+    color: #71bce7;
+}
+
+
+
+h3 {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h4{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.tmb-holder{
+    
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.6);
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    
+}
+
+.top{
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+   
+}
+
+.content{
+    display: grid;
+     text-align: center;
+     grid-template-columns: 30% 30% 40%
+}
+
+.health{
+    border-right: 1px solid #ddd;
+}
+
+.water{
+    border-right: 1px solid #ddd;
+}
+
+.hgreen{
+    color: limegreen;
+}
+
+.wblue{
+    color: rgb(48, 230, 230);
+}
+
+strong{
+    color: #777777;
 }
