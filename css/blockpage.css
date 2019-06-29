@@ -17,6 +17,7 @@ body{
 .heading {
     padding-top: 1.5em;
     padding-left:25px;
+    color: #4286f4;
 }
 
 .blocks{
@@ -107,5 +108,6 @@ ul li a{
     text-decoration: none;
     padding: 0 32px;
     display: block;
+    color: #4286f4;
 
 }

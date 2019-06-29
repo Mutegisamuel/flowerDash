@@ -23,7 +23,7 @@ h1{
     margin-inline-end: 0px;
     font-weight: normal;
     font-family: 'Pacifico', cursive;
-    color: #71bce7;
+    color: #4286f4;
 }
 
 h2{
@@ -80,7 +80,10 @@ h5 {
     padding:2px;
 }
 
-
+.word{
+    padding-top: 6px;;
+    color: #fff;
+}
 
 .card-body{
     display: block;
@@ -89,7 +92,7 @@ h5 {
 }
 
 .cardbody-wraper{
-    padding-left: 35%;
+    padding-left: 30%;
     padding-top: 10%;
 }
 
@@ -124,6 +127,7 @@ h4{
     border-radius: 20px;
     cursor: pointer;
     opacity: 0.7;
+    color: #4286f4;
 }
 
 .tabs label div{
@@ -140,7 +144,7 @@ h4{
 
 .tabs label input:checked + div{
     opacity: 1;
-    border-bottom: 2px solid #fff;     
+    border-bottom: 2px solid #4286f4;     
 }
 
 .tabs{
@@ -194,5 +198,6 @@ ul li a{
     text-decoration: none;
     padding: 0 32px;
     display: block;
+    color: #4286f4;
 
 }
