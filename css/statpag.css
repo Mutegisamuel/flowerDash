@@ -90,9 +90,12 @@ h2 {
 
 .top{
     padding-left: 5px;
-    padding-top: 5px;
+    padding-top: 5px;  
+}
+
+.hold{
+    height: 200px;
     margin-bottom: 20px;
-   
 }
 
 .content{
@@ -119,4 +122,13 @@ h2 {
 
 strong{
     color: #777777;
+}
+
+.bugstuff{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-auto-rows: 20px;
+    grid-auto-columns: minmax(50px, auto);
+    padding: 10px;
+    color: #000;
 }
