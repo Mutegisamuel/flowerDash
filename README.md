@@ -10,5 +10,6 @@
   > To install and run this app, all you need is to clone or download the project then open the index.html file with the browser of your choice.
    
      PS, use it on mobile view, it is not optimized for desktop and tablet use.
+     Also, run it using liveserver plugin on vsCode or any other texteditor.
 
 #### Enjoy. :) 
